@@ -1,0 +1,77 @@
+
+
+#container{
+    width: 50vw;
+    height: 100vh;
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+#principal{
+    width: 42.3vw;
+    height: 35vh;
+    margin-top: -15vh;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.but1{
+    width: 21vw;
+    align-items: center;
+}
+.but2{
+    width: 21vw;
+    align-items: center;
+}
+
+.but3{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.tel1{
+    opacity: 20%;
+}
+
+.tit1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5vh;
+    
+    
+}
+
+#forms{
+    color: white;
+    text-align: center;
+}
+
+.forms2{
+    margin-top: 10vh;
+}
+.inputz{
+    color: black;
+    margin-left: -38vw;
+    font-size: 30px;
+}
+
+.cad{
+    color: white;
+}
+
+.centra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+    margin-top: 25vh;
+}

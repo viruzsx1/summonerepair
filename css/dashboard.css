@@ -1,0 +1,43 @@
+#lateral{
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+}
+
+#icone{
+    height: 20vh;
+    width: 10vw;
+    background-image: url(/icons/user.png);
+    background-size: cover;
+    margin-left: 5vw;
+   
+    
+}
+
+
+
+.cat1{
+    width: 20vw;
+    height: 10vh;
+    background-color: gray;
+    margin-top: 20vh;
+    
+}
+
+.cat2{
+    width: 20vw;
+    height: 10vh;
+    background-color: gray;
+    margin-top: 5vh;
+    
+    
+}
+
+.cat3{
+    width: 20vw;
+    height: 10vh;
+    background-color: gray;
+    margin-top: 5vh;
+    
+    
+}

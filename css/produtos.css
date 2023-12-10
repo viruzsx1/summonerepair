@@ -1,0 +1,123 @@
+.nodeco{
+    text-decoration: none;
+    color: white;
+}
+
+.prod{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc1.webp);
+    background-size: cover;
+    border: 2px solid black;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.prod2{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc2.webp);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 30%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+}
+
+.prod3{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc3.webp);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.prod4{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc4.webp);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 30%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+}
+
+.prod5{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc5.webp);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 77%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.prod6{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc6.webp);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 77%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+}
+
+.prod7{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc7.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 77%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.prod8{
+    width: 15vw;
+    height: 25vh;
+    background-image: url(/img/processadores/proc8.jpg);
+    background-size: cover;
+    border: 3px solid black;
+    position: absolute;
+    top: 77%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+}
+
+.cent{
+    margin-left: 7vw;
+    margin-top: -2vh;
+}
+
+#popup{
+    width: 30vw;
+    height: 20vh;
+    background-color: gray;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.popc{
+    margin-left: 12vw;
+    width: 5vw;
+    
+}

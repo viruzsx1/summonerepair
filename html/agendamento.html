@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="/css/agendamento.css">
+    <link rel="stylesheet" type="text/css" href="/">
+
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="/js/agendamento.js"></script>
+    <script>
+        
+    </script>
+</head>
+<link rel="stylesheet" href="/css/agendamento.css">
+<script src="/js/agendamento.js"></script>
+
+<body background="/img/wallpaper2.jpg">
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+            <div class="container">
+                <a class="navbar-brand fs-3" href="/index.html">SummoneRepair</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " href="/index.html" aria-current="page">Home <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="/html/agendamento.html" aria-current="page">Agendamento
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+      
+      
+                        <li class="nav-item">
+                          <a class="nav-link active " href="/html/produtos.html" aria-current="page">Produtos
+                              <span class="visually-hidden">(current)</span></a>
+                      </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Sobre nós</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">YouTube</a>
+                                <a class="dropdown-item" href="#">Contato</a>
+      
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    </form>
+                </div>
+            </div>
+
+            <div id="user">
+
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <div id="container">
+
+            <br>
+            <h2 class="text-center text-white">Agendamento</h1>
+                
+                <br>
+                <div id="form">
+                    <div id="form2">
+                        <br><br>
+                        <label for="name" class="fs-4 text-white">Nome Completo:</label><br><input type="text" id='name'
+                            placeholder="Digite seu nome completo" style="width: 30vw; height: 40px;"><br><br>
+                        <label for="cpf" class="fs-4 text-white">CPF:</label><br><input type="text" id="cpf"
+                            placeholder="Digite seu CPF" style="width: 30vw; height: 40px;"><br><br>
+                        <label for="data" class="fs-4 text-white">Data do Agendamento:</label><br><input type="date"
+                            id="date" style="width: 30vw; height: 40px;"><br><br>
+                        <label for="eletro" class="fs-4 text-white">Concerto:</label><br>
+                        <select name="eletro" id="eletro" style="width: 30vw; height: 40px;">
+                            <option value="Computador">Computador</option>
+                            <option value="SmartPhone">Smartphone</option>
+                        </select><br><br>
+                        <label for="data" class="fs-4 text-white">Problema</label><br><textarea
+                            style="width: 30vw; height: 70px;" placeholder="Relate seu problema"></textarea><br><br>
+                    </div>
+                    <div class="butoesform"><br><br>
+                        <button onclick="agendar(); mostrarbut()" type="button" class="btn btn-primary"
+                            style="width: 15vh;">Agendar</button>
+                        <button type="button" class="btn btn-success" style="width: 15vh;">Salvar</button>
+                        <button type="button" class="btn btn-warning" style="width: 15vh;">Consultar</button>
+                        <button type="reset" class="btn btn-danger" style="width: 15vh;">Limpar</button>
+
+
+                    </div>
+                    <div id="butoesconfir">
+                        <button onclick="confirmar()" type="button" class="btn btn-success " style="width: 14vw; height: 5vh;">ACEITAR</button>
+                        <button onclick="recusar()" type="button" class="btn btn-danger" style="width: 14vw; height: 5vh; margin-right: 1vw;">RECUSAR</button>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+        </div>
+        <div id="confirma" class="text-white">
+            
+
+        </div>
+
+
+
+
+        <!--<div id="myModal" class="modal">
+            <div class="modal-content">
+              <span onclick="fecharModal()" style="cursor: pointer; float: right;">&times;</span>
+              <div id="conclu"></div>
+              <button onclick="confirmar()">Confirmar</button>
+              <button onclick="recusar()">Recusar</button>
+            </div>
+          </div>
+        </div>-->
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+    <footer>
+        
+    </footer>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="/js/agendamento.js"></script>
+</body>
+
+
+</html>

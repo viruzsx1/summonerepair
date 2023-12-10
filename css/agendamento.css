@@ -1,0 +1,105 @@
+#container{
+    width: 50vw;
+    height:1220px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20vh;
+}
+
+.upz{
+    margin-top: -10vh;
+}
+
+.butagenda{
+    margin-left: 1vw;
+}
+
+#form{
+    width: 47vw;
+    height: 1050px;
+    background-color: maroon;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 2%;
+
+}
+
+#form2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.butoesform{
+    margin-top: 60vh;
+    margin-left: 8vw;
+    position: absolute;
+    
+}
+
+#conclu{
+    width: 30vw;
+    height: 23vh;
+    background-color: black;
+    margin-top: 89vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+#espacmodal{
+    width: 70vh;
+    height: 30vh;
+    margin-top: -10vh;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #confirma{
+      height: 20vh;
+      width: 30vw;
+      
+      position: absolute;
+    
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 90vh;
+  }
+
+  #butoesconfir{
+    width: 30vw;
+    height: 10vh;
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 95vh;
+    display: none;
+  }
